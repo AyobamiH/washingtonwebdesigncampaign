@@ -1,0 +1,16 @@
+.portfolio-details {
+  position: relative;
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid white;
+  position: absolute;
+  top: -8px; /* Adjust to position above the details */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+}
