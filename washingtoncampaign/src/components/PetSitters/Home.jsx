@@ -16,17 +16,15 @@ const Home = () => {
   const jsonLdSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Tailwagging Websites Design Factory",
+    "name": "Tailwagging Websites Design Factory Washington",
     "image": "/images/Tailwaggingwebdesignlogo.png",
-    "url": "https://www.tailwaggingwebdesign.com",
+    "url": "https://www.websites-design-factory-on-the-web.com",
     "telephone": "+44 07402342694",
     "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Turners Gardens",
-      "addressLocality": "Northampton",
-      "addressRegion": "Northamptonshire",
-      "postalCode": "NN4 6LZ",
-      "addressCountry": "UK"
+      "@type": "AreaCovered",
+      "addressLocality": "WASHINGTON",
+      "addressRegion": "DC",
+      "addressCountry": "USA"
     },
     "geo": {
       "@type": "GeoCoordinates",
@@ -43,7 +41,7 @@ const Home = () => {
     ],
     "serviceArea": {
       "@type": "AdministrativeArea",
-      "name": "Northampton"
+      "name": "Washington DC"
     },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
@@ -58,12 +56,12 @@ const Home = () => {
             "loanPaymentAmount": {
               "@type": "MonetaryAmount",
               "value": "79.99",
-              "currency": "GBP"
+              "currency": "USD"
             },
             "downPayment": {
               "@type": "MonetaryAmount",
               "value": "160.00",
-              "currency": "GBP"
+              "currency": "USD"
             }
           },
           "description": "Perfect for Personal Pet Care Portfolios or Small Pet Care Websites",
@@ -73,7 +71,7 @@ const Home = () => {
             "description": "Perfect for Personal Pet Care Portfolios or Small Pet Care Websites",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Tailwagging Web Designs"
+              "name": "Tailwagging Web Design Factory "
             }
           }
         }
@@ -85,15 +83,15 @@ const Home = () => {
   "@context": "https://schema.org",
   "@type": "Service",
   "name": "Website Design for Pet Care Professionals",
-  "description": "I create beautiful, user-friendly websites that help pet care businesses in Northampton attract pet owners and increase bookings.",
+  "description": "I create beautiful, user-friendly websites that help pet care businesses in Washington attract pet owners and increase bookings.",
   "serviceType": "Web Design",
   "areaServed": {
     "@type": "AdministrativeArea",
-    "name": "Northampton"
+    "name": "Washington"
   },
   "provider": {
     "@type": "LocalBusiness",
-    "name": "Tailwagging Web Designs"
+    "name": "Tailwagging Web Design Factory"
   },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -108,12 +106,12 @@ const Home = () => {
           "loanPaymentAmount": {
             "@type": "MonetaryAmount",
             "value": "79.99",
-            "currency": "GBP"
+            "currency": "USD"
           },
           "downPayment": {
             "@type": "MonetaryAmount",
             "value": "160.00",
-            "currency": "GBP"
+            "currency": "USD"
           }
         },
         "description": "Perfect for Personal Pet Care Portfolios or Small Pet Care Websites - 36 monthly installments of £79.99 + £100.00 onboarding fee.",
@@ -123,7 +121,7 @@ const Home = () => {
           "description": "Perfect for Personal Pet Care Portfolios or Small Pet Care Websites",
           "provider": {
             "@type": "LocalBusiness",
-            "name": "Tailwagging Web Designs"
+            "name": "Tailwagging Web Designs Factory"
           }
         }
       },
@@ -136,12 +134,12 @@ const Home = () => {
           "loanPaymentAmount": {
             "@type": "MonetaryAmount",
             "value": "128.79",
-            "currency": "GBP"
+            "currency": "USD"
           },
           "downPayment": {
             "@type": "MonetaryAmount",
             "value": "160.00",
-            "currency": "GBP"
+            "currency": "USD"
           }
         },
         "description": "Small to Medium Businesses with Multiple Locations - 48 monthly installments of £128.79 + £120.00 onboarding fee.",
@@ -151,7 +149,7 @@ const Home = () => {
           "description": "Small to Medium Businesses with Multiple Locations",
           "provider": {
             "@type": "LocalBusiness",
-            "name": "Tailwagging Web Designs"
+            "name": "Tailwagging Web Design Factory"
           }
         }
       },
@@ -164,12 +162,12 @@ const Home = () => {
           "loanPaymentAmount": {
             "@type": "MonetaryAmount",
             "value": "198.99",
-            "currency": "GBP"
+            "currency": "USD"
           },
           "downPayment": {
             "@type": "MonetaryAmount",
             "value": "160.00",
-            "currency": "GBP"
+            "currency": "USD"
           }
         },
         "description": "Large Businesses with Advanced Needs - 48 monthly installments of £198.99 + £160.00 onboarding fee.",
@@ -191,7 +189,7 @@ const websiteLdSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Tailwagging Web Designs",
-  "url": "https://www.tailwaggingwebdesign.com" // Replace with your actual website URL
+  "url": "https://www.websites-design-factory-on-the-web.com" // Replace with your actual website URL
 };
 
 
@@ -199,7 +197,7 @@ const websiteLdSchema = {
     <>
       
       <Helmet>
-        <title>Pet Care Web Design & SEO Northampton | Tail Wagging Web Design Factory</title>
+        <title>Pet Care Web Design & SEO Washington | Tail Wagging Web Design Factory</title>
         <meta charset="UTF-8" />
         <link rel="icon" type="image/svg+xml" href="/images/Tailwaggingwebdesignlogo.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -207,40 +205,40 @@ const websiteLdSchema = {
         {/* <!-- Meta Description --> */}
         <meta
           name="description"
-          content="Boost your pet care business with expert web design and SEO services in Northampton. Specializing in websites for dog walkers, pet sitters, vets, and pet care professionals."
+          content="Boost your pet care business with expert web design and SEO services in Washington. Specializing in websites for dog walkers, pet sitters, vets, and pet care professionals."
         />
 
         {/* <!-- Meta Keywords --> */}
         <meta
           name="keywords"
-          content="pet care web design Northampton, dog walker website design, pet sitter website design Northampton, website design for pet care professionals, pet care website development Northampton, Northampton dog groomer web design, web design for vets Northampton, pet boarding website design Northampton, dog training website design Northampton, pet care SEO Northampton, pet-friendly website design Northampton, Northampton pet shop web design, website repairs Northampton, website maintenance Northampton, one page web design Northampton, web copywriting Northampton, PPC advertising Northampton, pet care Northampton, pet sitters Northampton, pet groomers Northampton, doggy day care Northampton, raw pet food suppliers Northampton"
+          content="pet care web design Washington, dog walker website design, pet sitter website design Washington, website design for pet care professionals, pet care website development Washington, Washington dog groomer web design, web design for vets Washington, pet boarding website design Washington, dog training website design Washington, pet care SEO Washington, pet-friendly website design Washington, Washington pet shop web design, website repairs Washington, website maintenance Washington, one page web design Washington, web copywriting Washington, PPC advertising Washington, pet care Washington, pet sitters Washington, pet groomers Washington, doggy day care Washington, raw pet food suppliers Washington"
         />
 
         {/* <!-- Author --> */}
         <meta name="author" content="Tail Wagging Web Design Factory" />
 
         {/* <!-- Open Graph Meta Tags --> */}
-        <meta property="og:title" content="Pet Care Web Design & SEO in Northampton" />
+        <meta property="og:title" content="Pet Care Web Design & SEO in Washington" />
         <meta
           property="og:description"
-          content="Professional web design services in Northampton tailored for pet care businesses like pet sitters, dog walkers, groomers, and vets. Get a free consultation today!"
+          content="Professional web design services in Washington tailored for pet care businesses like pet sitters, dog walkers, groomers, and vets. Get a free consultation today!"
         />
         <meta property="og:image" content="/images/Tailwaggingwebdesignlogo.png" />
-        <meta property="og:url" content="https://www.tailwaggingwebdesign.com" />
+        <meta property="og:url" content="https://www.websites-design-factory-on-the-web.com" />
         <meta property="og:type" content="website" />
 
         {/* <!-- Twitter Card Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Pet Care Web Design & SEO in Northampton" />
+        <meta name="twitter:title" content="Pet Care Web Design & SEO in Washington" />
         <meta
           name="twitter:description"
-          content="Looking to grow your pet care business? We design custom websites for pet care professionals in Northampton, including SEO services. Learn more today!"
+          content="Looking to grow your pet care business? We design custom websites for pet care professionals in Washington, including SEO services. Learn more today!"
         />
         <meta name="twitter:image" content="/images/Tailwaggingwebdesign.png" />
         <meta name="twitter:site" content="@woeinvests" />
 
         {/* <!-- Canonical URL --> */}
-        <link rel="canonical" href="https://www.tailwaggingwebdesign.com" />
+        <link rel="canonical" href="https://www.websites-design-factory-on-the-web.com" />
 
         {/* <!-- Robots --> */}
         <meta name="robots" content="index, follow" />
